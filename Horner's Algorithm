@@ -1,0 +1,28 @@
+// Horner's algorithm is used to efficiently solve any given polynomial ax^2 + bx + c for some value of x
+#include <stdio.h>
+
+void Horner(int A[], int x, int v)
+{
+    if(x < 0 || v <0)
+    {
+        printf("Invalid input!!");
+        return;
+    }
+
+    int s = 0;
+
+    for(int i=n-1; i<=0; i--)
+    {
+        s= s * v + a;
+
+    }
+    printf("%d", s);
+}
+
+void main()
+{
+    int A[] = {4,3,2,1};
+
+    Horner(A, 4, 1);
+    
+}
