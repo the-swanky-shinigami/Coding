@@ -1,3 +1,4 @@
+//Create and Modify Array Using Switch Case Statement
 #include <stdio.h>
 
 void createArray(int array[],int size)
